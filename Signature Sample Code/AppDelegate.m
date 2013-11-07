@@ -7,12 +7,15 @@
 //
 
 #import "AppDelegate.h"
+#import "SignatureViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    SignatureViewController *vc = [[SignatureViewController alloc] initWithNibName:@"SignatureViewController" bundle:nil];
+    [self.window setRootViewController:vc];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

@@ -19,6 +19,9 @@
 		213CEF62182B9A8C0046DD33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213CEF4A182B9A8B0046DD33 /* UIKit.framework */; };
 		213CEF6A182B9A8C0046DD33 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 213CEF68182B9A8C0046DD33 /* InfoPlist.strings */; };
 		213CEF6C182B9A8C0046DD33 /* Signature_Sample_CodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 213CEF6B182B9A8C0046DD33 /* Signature_Sample_CodeTests.m */; };
+		213CEF78182B9C6D0046DD33 /* SignatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 213CEF76182B9C6D0046DD33 /* SignatureViewController.m */; };
+		213CEF79182B9C6D0046DD33 /* SignatureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 213CEF77182B9C6D0046DD33 /* SignatureViewController.xib */; };
+		213CEF7C182BA2260046DD33 /* SignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 213CEF7B182BA2260046DD33 /* SignatureView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,11 @@
 		213CEF67182B9A8C0046DD33 /* Signature Sample CodeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Signature Sample CodeTests-Info.plist"; sourceTree = "<group>"; };
 		213CEF69182B9A8C0046DD33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		213CEF6B182B9A8C0046DD33 /* Signature_Sample_CodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Signature_Sample_CodeTests.m; sourceTree = "<group>"; };
+		213CEF75182B9C6D0046DD33 /* SignatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureViewController.h; sourceTree = "<group>"; };
+		213CEF76182B9C6D0046DD33 /* SignatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureViewController.m; sourceTree = "<group>"; };
+		213CEF77182B9C6D0046DD33 /* SignatureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignatureViewController.xib; sourceTree = "<group>"; };
+		213CEF7A182BA2260046DD33 /* SignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureView.h; sourceTree = "<group>"; };
+		213CEF7B182BA2260046DD33 /* SignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +119,11 @@
 				213CEF56182B9A8B0046DD33 /* AppDelegate.m */,
 				213CEF58182B9A8B0046DD33 /* Images.xcassets */,
 				213CEF4D182B9A8B0046DD33 /* Supporting Files */,
+				213CEF75182B9C6D0046DD33 /* SignatureViewController.h */,
+				213CEF76182B9C6D0046DD33 /* SignatureViewController.m */,
+				213CEF77182B9C6D0046DD33 /* SignatureViewController.xib */,
+				213CEF7A182BA2260046DD33 /* SignatureView.h */,
+				213CEF7B182BA2260046DD33 /* SignatureView.m */,
 			);
 			path = "Signature Sample Code";
 			sourceTree = "<group>";
@@ -221,6 +234,7 @@
 			files = (
 				213CEF51182B9A8B0046DD33 /* InfoPlist.strings in Resources */,
 				213CEF59182B9A8B0046DD33 /* Images.xcassets in Resources */,
+				213CEF79182B9C6D0046DD33 /* SignatureViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +254,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				213CEF57182B9A8B0046DD33 /* AppDelegate.m in Sources */,
+				213CEF78182B9C6D0046DD33 /* SignatureViewController.m in Sources */,
 				213CEF53182B9A8B0046DD33 /* main.m in Sources */,
+				213CEF7C182BA2260046DD33 /* SignatureView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
